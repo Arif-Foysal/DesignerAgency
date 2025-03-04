@@ -12,53 +12,26 @@
 </head>
 
 <body>
-<nav class="bg-gray-100 border-gray-200">
-    <div class="bg-green-400 h-8 flex items-center px-3">
-        <p>FTP account request &nbsp; Free Trial &nbsp; Order now &nbsp; Social media icon</p>
-    </div>
-  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-    <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <img src="logo.png" class="h-12" alt="Momen Logo" />
-    </a>
-    <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-default" aria-expanded="false">
-        <span class="sr-only">Open main menu</span>
-        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-        </svg>
-    </button>
-    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-      <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-gray-100">
-        <li>
-          <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 " aria-current="page">Home</a>
-        </li>
-        <li>
-          <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">About</a>
-        </li>
-        <li>
-          <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Services</a>
-        </li>
-        <li>
-          <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Pricing</a>
-        </li>
-        <li>
-          <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Contact</a>
-         
-       
-        </li>
-        <li>
-        <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Workflow</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+<?php
+include_once 'nav.php';
+?>
+
+<div class="px-4">
+
+
 
 <section class="bg-white">
     <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div class="mr-auto place-self-center lg:col-span-7">
-            <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl ">Where Creativity Meets Perfection</h1>
+            <!-- <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl ">Where Creativity Meets Perfection</h1> -->
+            <!-- <h2 class="py-4 text-gray-900 text-4xl font-extrabold md:text-5xl lg:text-6xl">
+  Where creativity meets <span class="px-2 text-white bg-indigo-600 rounded">perfection</span>
+  </h2> -->
+  <h2 class="py-4 text-gray-900 text-4xl font-extrabold md:text-5xl lg:text-6xl">
+  Where creativity meets <span class="text-transparent bg-clip-text bg-gradient-to-r to-rose-500 from-red-400">perfection</span>
+  </h2>
             <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl ">Make your photos shine with our expert clipping path, retouching, and image editing services. We bring unmatched precision and creativity to every project, helping your visuals leave a lasting impression.</p>
-            <a href="#" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-green-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300">
+            <a href="#" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-indigo-600 hover:bg-indigo-800 transition-all duration-700 ease-in-out rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] ">
                 Free Trial
                 <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
             </a>
@@ -66,7 +39,7 @@
                 Make a budget
             </a> 
         </div>
-        <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
+        <div class="flex py-4 lg:py-0 lg:mt-0 lg:col-span-5 ">
             
 
 <div id="gallery" class="relative w-full" data-carousel="slide">
@@ -149,6 +122,475 @@
             </div>
         </div> 
 
+
+
+
+
+<section class="py-24 flex justify-center">
+  <div class="container mx-auto  ">
+    <p
+      class="block antialiased font-sans leading-relaxed text-blue-gray-900 mb-4 font-bold text-2xl"
+    >
+      Pricing Plans
+    </p>
+    <h1
+      class="block antialiased tracking-normal font-sans font-semibold text-blue-gray-900 mb-4 !leading-snug lg:!text-4xl !text-2xl max-w-2xl"
+    >
+      Invest in a plan that's as ambitious as your corporate goals.
+    </h1>
+    <p
+      class="block antialiased font-sans text-xl leading-relaxed text-inherit mb-10 font-normal !text-gray-500 max-w-xl"
+    >
+      Compare the benefits and features of each plan below to find the ideal
+      match for your business's budget and ambitions.
+    </p>
+    <section class="flex flex-col justify-center">
+
+
+    <div
+      class="grid gap-x-10 gap-y-8 md:grid-cols-2 lg:grid-cols-3 max-w-5xl "
+    >
+      <div
+        class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md"
+      >
+        <div
+          class="relative bg-clip-border !mt-4 mx-4 rounded-xl overflow-hidden bg-transparent text-gray-700 shadow-none !m-0 p-6"
+        >
+          <h6
+            class="block antialiased tracking-normal font-sans text-base leading-relaxed text-blue-gray-900 capitalize font-bold mb-1"
+          >
+            starter
+          </h6>
+          <p
+            class="block antialiased font-sans text-sm leading-normal text-inherit font-normal !text-gray-500"
+          >
+            Free access for 2 members
+          </p>
+          <h3
+            class="antialiased tracking-normal font-sans font-semibold leading-snug text-blue-gray-900 !mt-4 flex gap-1 !text-4xl"
+          >
+            $<!-- -->129<span
+              class="block antialiased font-sans leading-relaxed text-blue-gray-900 -translate-y-0.5 self-end opacity-70 text-lg font-bold"
+              >/<!-- -->year</span
+            >
+          </h3>
+        </div>
+        <div class="p-6 pt-0">
+          <ul class="flex flex-col gap-3 mb-6">
+            <li class="flex items-center gap-3 text-gray-700">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                aria-hidden="true"
+                class="h-5 w-5 text-blue-gray-900"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              <p
+                class="block antialiased font-sans text-sm leading-normal font-normal text-inherit"
+              >
+                Complete documentation
+              </p>
+            </li>
+            <li class="flex items-center gap-3 text-gray-700">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                aria-hidden="true"
+                class="h-5 w-5 text-blue-gray-900"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              <p
+                class="block antialiased font-sans text-sm leading-normal font-normal text-inherit"
+              >
+                Working materials in Sketch
+              </p>
+            </li>
+            <li class="flex items-center gap-3 text-gray-700">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="2.5"
+                stroke="currentColor"
+                aria-hidden="true"
+                class="h-5 w-5 text-blue-gray-900"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                ></path>
+              </svg>
+              <p
+                class="block antialiased font-sans text-sm leading-normal font-normal text-inherit"
+              >
+                Integration help
+              </p>
+            </li>
+            <li class="flex items-center gap-3 text-gray-700">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="2.5"
+                stroke="currentColor"
+                aria-hidden="true"
+                class="h-5 w-5 text-blue-gray-900"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                ></path>
+              </svg>
+              <p
+                class="block antialiased font-sans text-sm leading-normal font-normal text-inherit"
+              >
+                40GB Cloud storage
+              </p>
+            </li>
+            <li class="flex items-center gap-3 text-gray-700">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="2.5"
+                stroke="currentColor"
+                aria-hidden="true"
+                class="h-5 w-5 text-blue-gray-900"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                ></path>
+              </svg>
+              <p
+                class="block antialiased font-sans text-sm leading-normal font-normal text-inherit"
+              >
+                Support team full assist
+              </p>
+            </li>
+          </ul>
+          <button
+            class="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gradient-to-tr from-gray-900 to-gray-800 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 active:opacity-[0.85] bg-gradient-to-tr from-gray-900 to-gray-800 block w-full"
+            type="button"
+            data-ripple-light="true"
+          >
+            get started
+          </button>
+        </div>
+      </div>
+      <div
+        class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md"
+      >
+        <div
+          class="relative bg-clip-border !mt-4 mx-4 rounded-xl overflow-hidden bg-transparent text-gray-700 shadow-none !m-0 p-6"
+        >
+          <h6
+            class="block antialiased tracking-normal font-sans text-base leading-relaxed text-blue-gray-900 capitalize font-bold mb-1"
+          >
+            premium
+          </h6>
+          <p
+            class="block antialiased font-sans text-sm leading-normal text-inherit font-normal !text-gray-500"
+          >
+            Free access for 30 members
+          </p>
+          <h3
+            class="antialiased tracking-normal font-sans font-semibold leading-snug text-blue-gray-900 !mt-4 flex gap-1 !text-4xl"
+          >
+            $<!-- -->299<span
+              class="block antialiased font-sans leading-relaxed text-blue-gray-900 -translate-y-0.5 self-end opacity-70 text-lg font-bold"
+              >/<!-- -->year</span
+            >
+          </h3>
+        </div>
+        <div class="p-6 pt-0">
+          <ul class="flex flex-col gap-3 mb-6">
+            <li class="flex items-center gap-3 text-gray-700">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                aria-hidden="true"
+                class="h-5 w-5 text-blue-gray-900"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              <p
+                class="block antialiased font-sans text-sm leading-normal font-normal text-inherit"
+              >
+                Complete documentation
+              </p>
+            </li>
+            <li class="flex items-center gap-3 text-gray-700">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                aria-hidden="true"
+                class="h-5 w-5 text-blue-gray-900"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              <p
+                class="block antialiased font-sans text-sm leading-normal font-normal text-inherit"
+              >
+                Working materials in Sketch
+              </p>
+            </li>
+            <li class="flex items-center gap-3 text-gray-700">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                aria-hidden="true"
+                stroke-width="2.5"
+                class="h-5 w-5 text-blue-gray-900"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              <p
+                class="block antialiased font-sans text-sm leading-normal font-normal text-inherit"
+              >
+                Integration help
+              </p>
+            </li>
+            <li class="flex items-center gap-3 text-gray-700">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                aria-hidden="true"
+                stroke-width="2.5"
+                class="h-5 w-5 text-blue-gray-900"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              <p
+                class="block antialiased font-sans text-sm leading-normal font-normal text-inherit"
+              >
+                40GB Cloud storage
+              </p>
+            </li>
+            <li class="flex items-center gap-3 text-gray-700">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="2.5"
+                stroke="currentColor"
+                aria-hidden="true"
+                class="h-5 w-5 text-blue-gray-900"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                ></path>
+              </svg>
+              <p
+                class="block antialiased font-sans text-sm leading-normal font-normal text-inherit"
+              >
+                Support team full assist
+              </p>
+            </li>
+          </ul>
+          <button
+            class="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gradient-to-tr from-gray-900 to-gray-800 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 active:opacity-[0.85] bg-gradient-to-tr from-gray-900 to-gray-800 block w-full"
+            type="button"
+            data-ripple-light="true"
+          >
+            get started
+          </button>
+        </div>
+      </div>
+      <div
+        class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md"
+      >
+        <div
+          class="relative bg-clip-border !mt-4 mx-4 rounded-xl overflow-hidden bg-transparent text-gray-700 shadow-none !m-0 p-6"
+        >
+          <h6
+            class="block antialiased tracking-normal font-sans text-base leading-relaxed text-blue-gray-900 capitalize font-bold mb-1"
+          >
+            company
+          </h6>
+          <p
+            class="block antialiased font-sans text-sm leading-normal text-inherit font-normal !text-gray-500"
+          >
+            Free access for 200 members
+          </p>
+          <h3
+            class="antialiased tracking-normal font-sans font-semibold leading-snug text-blue-gray-900 !mt-4 flex gap-1 !text-4xl"
+          >
+            $<!-- -->399<span
+              class="block antialiased font-sans leading-relaxed text-blue-gray-900 -translate-y-0.5 self-end opacity-70 text-lg font-bold"
+              >/<!-- -->year</span
+            >
+          </h3>
+        </div>
+        <div class="p-6 pt-0">
+          <ul class="flex flex-col gap-3 mb-6">
+            <li class="flex items-center gap-3 text-gray-700">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                aria-hidden="true"
+                class="h-5 w-5 text-blue-gray-900"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              <p
+                class="block antialiased font-sans text-sm leading-normal font-normal text-inherit"
+              >
+                Complete documentation
+              </p>
+            </li>
+            <li class="flex items-center gap-3 text-gray-700">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                aria-hidden="true"
+                class="h-5 w-5 text-blue-gray-900"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              <p
+                class="block antialiased font-sans text-sm leading-normal font-normal text-inherit"
+              >
+                Working materials in Sketch
+              </p>
+            </li>
+            <li class="flex items-center gap-3 text-gray-700">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                aria-hidden="true"
+                stroke-width="2.5"
+                class="h-5 w-5 text-blue-gray-900"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              <p
+                class="block antialiased font-sans text-sm leading-normal font-normal text-inherit"
+              >
+                Integration help
+              </p>
+            </li>
+            <li class="flex items-center gap-3 text-gray-700">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                aria-hidden="true"
+                stroke-width="2.5"
+                class="h-5 w-5 text-blue-gray-900"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              <p
+                class="block antialiased font-sans text-sm leading-normal font-normal text-inherit"
+              >
+                40GB Cloud storage
+              </p>
+            </li>
+            <li class="flex items-center gap-3 text-gray-700">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                aria-hidden="true"
+                stroke-width="2.5"
+                class="h-5 w-5 text-blue-gray-900"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              <p
+                class="block antialiased font-sans text-sm leading-normal font-normal text-inherit"
+              >
+                Support team full assist
+              </p>
+            </li>
+          </ul>
+          <button
+            class="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gradient-to-tr from-gray-900 to-gray-800 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 active:opacity-[0.85] bg-gradient-to-tr from-gray-900 to-gray-800 block w-full"
+            type="button"
+            data-ripple-light="true"
+          >
+            get started
+          </button>
+        </div>
+      </div>
+    </div>
+    </section>
+    <p
+      class="block antialiased font-sans text-sm leading-normal text-inherit mt-10 font-normal !text-gray-500"
+    >
+      You have Free Unlimited Updates and Premium Support on each package. You
+      also have 30 days to request a refund.
+    </p>
+  </div>
+</section>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TtxRBc_qfeE?si=SKwKMBDGyswG5ktR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+  </div>
+
+<?php include 'footer.php'; ?>
    <!-- Force light theme -->
 
 <!-- Flowbite js -->
