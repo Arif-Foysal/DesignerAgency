@@ -241,9 +241,9 @@ Drop Shadow
 <nav class="bg-gray-100 border-gray-200 sticky top-0 z-50">
     <!-- Previous green header div remains the same -->
   
-    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4">
-        <a href="index.php" class="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="logo_new_2.png" class="h-16" alt="Momen Logo" />
+    <div class="max-w-screen-xl flex   items-center justify-between mx-auto px-4">
+        <a href="index.php" class="flex flex-shrink-0 items-center space-x-3 rtl:space-x-reverse">
+            <img src="logo_new_2.png" class="h-16" alt="Momen Logo" style="object-fit: contain;" />
         </a>
         <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-default" aria-expanded="false">
             <span class="sr-only">Open main menu</span>
