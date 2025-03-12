@@ -273,7 +273,7 @@ Drop Shadow
                         <div class="dropdown-content-container">
                             <div class="sub-dropdown">
                                 <div class="dropdown-item">
-                                    Photoshop
+                                    Image
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
                                         <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
                                     </svg>
@@ -290,21 +290,7 @@ Drop Shadow
                                     </div>
                                 </div>
                             </div>
-                            <div class="sub-dropdown">
-                                <div class="dropdown-item">
-                                    Illustrator
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                                    </svg>
-                                </div>
-                                <div class="sub-dropdown-content">
-                                    <div class="dropdown-content-container">
-                                        <a href="#" class="dropdown-item">Vector Art</a>
-                                        <a href="#" class="dropdown-item">Logo Design</a>
-                                        <a href="#" class="dropdown-item">Illustrations</a>
-                                    </div>
-                                </div>
-                            </div>
+                           
 
                             <div class="sub-dropdown">
                                 <div class="dropdown-item">
@@ -344,13 +330,13 @@ Drop Shadow
                 </li>
                 <!-- Rest of the menu items remain the same -->
                 <li>
-                    <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0">Pricing</a>
+                    <a href="pricing.php" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0">Pricing</a>
                 </li>
                 <li>
                     <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0">Portfolio</a>
                 </li>
                 <li>
-                    <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0">Blog</a>
+                    <a href="blog.php" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0">Blog</a>
                 </li>
                 <li>
                     <a href="workflow.php" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0">Workflow</a>
@@ -371,7 +357,7 @@ Drop Shadow
                     </a>
                     <div class="dropdown-content">
                         <div class="dropdown-content-container">
-                            <a href="profile.php" class="dropdown-item">Profile</a>
+                            <a href="profile.php" class="dropdown-item">Dashboard</a>
                             <a href="signup.php" class="dropdown-item">Sign Up</a>
                             <a href="login.php" class="dropdown-item">Log In</a>
                         </div>
