@@ -22,7 +22,6 @@
             /* Add margin-top instead of padding to create gap */
             /* margin-top: 5px; */
             /* Add invisible padding on top to maintain hover area */
-            
         }
 
         /* Sub dropdown styles */
@@ -101,6 +100,7 @@
             /* Add a subtle border */
             border: 1px solid rgba(0,0,0,0.1);
         }
+
     </style>
     <!-- <style>
         /* Base dropdown styles */
