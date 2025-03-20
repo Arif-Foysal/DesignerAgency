@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "img-comparison-slider": "^8.0.6",
+    "vue-compare-image": "^0.2.0"
+  }
+}
