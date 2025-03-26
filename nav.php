@@ -374,7 +374,8 @@ Drop Shadow
 
 <!-- JavaScript remains the same -->
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
+  
+   document.addEventListener('DOMContentLoaded', function() {
         // Mobile menu toggle
         const menuButton = document.querySelector('[data-collapse-toggle="navbar-default"]');
         const menu = document.getElementById('navbar-default');
